@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 body{
   margin: 0;
-  font-family: 'Akaya Kanadaka', cursive;
+  /* font-family: 'Akaya Kanadaka', cursive; */
+  font-family: 'VT323', monospace;
 }
 
 /* HEADER */
@@ -71,3 +73,29 @@ body{
 }
 
 /* FOOTER */
+
+/* PERSONAL INFO */
+#octocat{
+  width: 75px;
+  height: 75px;
+}
+
+#linkedin{
+  width: 75px;
+  height: 75px;
+}
+
+#twitter{
+  width: 75px;
+  height: 75px;
+}
+
+#blog{
+  width: 75px;
+  height: 75px;
+}
+
+#email{
+  width: 75px;
+  height: 75px;
+}
