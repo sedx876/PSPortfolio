@@ -5,6 +5,7 @@ body{
   margin: 0;
   /* font-family: 'Akaya Kanadaka', cursive; */
   font-family: 'VT323', monospace;
+  display: flex;
 }
 
 /* HEADER */
@@ -87,6 +88,7 @@ body{
   width: 75px;
   height: 75px;
   padding: 20px;
+  
 }
 
 #linkedin{
@@ -111,4 +113,80 @@ body{
   width: 75px;
   height: 75px;
   padding: 20px;
+}
+/* END OF PERSONAL INFO */
+
+/* INTRODUCTION */
+
+.introduction{
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.introduction > p{
+  font-size: 20px;
+}
+
+/* END OF INTRODUCTION */
+
+/* TECHSKILLS */
+
+.techSkills{
+  background-color: #f1f1f1;
+  flex-direction: column;
+  flex-grow: 2;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+}
+
+#tsTitle{
+  text-decoration: underline;
+}
+
+#html{
+  width: 75px;
+  height: 75px;
+}
+
+#css{
+  width: 75px;
+  height: 75px;
+}
+
+#js{
+  width: 75px;
+  height: 75px;
+}
+
+#ruby{
+  width: 75px;
+  height: 75px;
+}
+
+#rails{
+  width: 75px;
+  height: 75px;
+}
+
+#react{
+  width: 75px;
+  height: 75px;
+}
+
+#redux{
+  width: 75px;
+  height: 75px;
+}
+
+/* END OF TECHSKILLS */
+
+/* TECHPROJECTS */
+
+#techProjects{
+  background-color: #f1f1f1;
+  flex-direction: column;
+  width: 400px;
+  height: 500px;
+  float:right;
 }
