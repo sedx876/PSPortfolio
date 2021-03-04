@@ -136,8 +136,10 @@ body{
   flex-direction: column;
   flex-grow: 2;
   width: 400px;
-  height: 500px;
+  height: 400px;
   text-align: center;
+  padding: 5px;
+  margin: 5px;
 }
 
 #tsTitle{
@@ -145,38 +147,81 @@ body{
 }
 
 #html{
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
+  padding: 5px;
 }
 
 #css{
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
+  padding: 5px;
 }
 
 #js{
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
+  padding: 5px;
 }
 
 #ruby{
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
+  padding: 5px;
 }
 
 #rails{
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
+  padding: 5px;
 }
 
 #react{
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
+  padding: 5px;
 }
 
 #redux{
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+}
+
+#java{
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+}
+
+#node{
+  width: 65px;
+  height: 70px;
+  padding: 5px;
+}
+
+#sql{
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+}
+
+#mongo{
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+}
+
+#oop{
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+}
+
+#photoshop{
+  width: 70px;
+  height: 70px;
+  padding: 5px;
 }
 
 /* END OF TECHSKILLS */
