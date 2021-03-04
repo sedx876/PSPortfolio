@@ -75,27 +75,40 @@ body{
 /* FOOTER */
 
 /* PERSONAL INFO */
+
+.personalInfo{
+  text-align: center;
+  margin: 10px;
+  
+}
+
+
 #octocat{
   width: 75px;
   height: 75px;
+  padding: 20px;
 }
 
 #linkedin{
   width: 75px;
   height: 75px;
+  padding: 20px;
 }
 
 #twitter{
   width: 75px;
   height: 75px;
+  padding: 20px;
 }
 
 #blog{
   width: 75px;
   height: 75px;
+  padding: 20px;
 }
 
 #email{
   width: 75px;
   height: 75px;
+  padding: 20px;
 }
