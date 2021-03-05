@@ -8,10 +8,6 @@
   <link rel="icon" type="image/png" href="/images/comp2.png"/>
   <link rel='stylesheet' href='style.css'/>
   <title>Sharon Watkins</title>
-  <style type="text/css">
-    .dosbox-container { width: 640px; height: 400px; }
-    .dosbox-container > .dosbox-overlay { background: url(https://js-dos.com/cdn/OregonTrail.png); }
-  </style>
 </head>
 <body>
   <div class='mainContainer'>
@@ -82,8 +78,16 @@
 
   <!-- POSSIBLE OREGON TRAIL GAME EMBED -->
   <div class="oregonContainer">
-    <div class="embed-responsive embed-responsive-4by3">
-      <iframe class="embed-responsive-item" src="https://archive.org/embed/msdos_Oregon_Trail_The_1990" width="560" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+    <div>
+      <iframe class="embed-responsive-item" 
+        src="https://archive.org/embed/msdos_Oregon_Trail_The_1990" 
+        width="600" 
+        height="400" 
+        frameborder="0" 
+        webkitallowfullscreen="true" 
+        mozallowfullscreen="true" 
+        allowfullscreen>
+      </iframe>
     </div>
       
     </div>
@@ -95,20 +99,77 @@
 
     <div class="techSkills">
       <h2 id='tsTitle'>Technical Skills</h2>
-      <img id='html' src='images/html.png'/>
-      <img id='css' src='images/css.png'/>
-      <img id='js' src='images/js.png'/>
-      <img id='ruby' src='images/ruby.png'/>
-      <img id='rails' src='images/rails.png'/>
-      <img id='react' src='images/react.png'/>
-      <img id='redux' src='images/redux.png'/>
-      <img id='java' src='images/java.png'/>
-      <img id='node' src='images/node.png'/>
-      <img id='sql' src='images/sql.png'/>
-      <img id='mongo' src='images/mongo.png'/>
-      <img id='oop' src='images/oop.png'/>
-      <img id='photoshop' src='images/photoshop.png'/>
-      <img id='bootstrap' src='images/bootstrap.png'/>
+
+      <a href='https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5'
+        target='_blank'>
+        <img id='html' src='images/html.png'/>
+      </a>
+
+      <a href='https://www.w3schools.com/css/'
+        target='_blank'>
+        <img id='css' src='images/css.png'/>
+      </a>
+
+      <a href='https://www.javascript.com/'
+        target='_blank'>
+        <img id='js' src='images/js.png'/>
+      </a>
+
+      <a href='https://www.ruby-lang.org/en/'
+        target='_blank'>
+        <img id='ruby' src='images/ruby.png'/>
+      </a>
+
+      <a href='https://rubyonrails.org/'
+        target='_blank'>
+        <img id='rails' src='images/rails.png'/>
+      </a>
+      
+      <a href='https://reactjs.org/'
+        target='_blank'>
+        <img id='react' src='images/react.png'/>
+      </a>
+
+      <a href='https://redux.js.org/'
+        target='_blank'>
+        <img id='redux' src='images/redux.png'/>
+      </a>
+
+      <a href='https://www.java.com/en/'
+        target='_blank'>
+        <img id='java' src='images/java.png'/>
+      </a>
+
+      <a href='https://nodejs.org/en/'
+        target='_blank'>
+        <img id='node' src='images/node.png'/>
+      </a>
+
+      <a href='http://www.sqlcourse.com/intro.html'
+        target='_blank'>
+        <img id='sql' src='images/sql.png'/>
+      </a>
+
+      <a href='https://www.mongodb.com/cloud/atlas/lp/try2?utm_source=google&utm_campaign=gs_americas_united_states_search_core_brand_atlas_desktop&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=12212624338&gclid=Cj0KCQiAyoeCBhCTARIsAOfpKxgxlGipt9X5H95BBtc2vxnNS8aLc5eAhkWfkKb8WpENDBEb3Ldlqk0aAn8kEALw_wcB'
+        target='_blank'>
+        <img id='mongo' src='images/mongo.png'/>
+      </a>
+      
+      <a href='https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/'
+        target='_blank'>
+        <img id='oop' src='images/oop.png'/>
+      </a>
+
+      <a href='https://www.adobe.com/products/photoshop/landpa.html?sdid=KKQIN&mv=search&kw=photoshop&ef_id=Cj0KCQiAyoeCBhCTARIsAOfpKxhQUvNBCWVTu02zY6GL9dtV0AAtTFmjjwucIuqXmOkYlXb_CWArUpgaAmJvEALw_wcB:G:s&s_kwcid=AL!3085!3!496138743075!e!!g!!photoshop&gclid=Cj0KCQiAyoeCBhCTARIsAOfpKxhQUvNBCWVTu02zY6GL9dtV0AAtTFmjjwucIuqXmOkYlXb_CWArUpgaAmJvEALw_wcB'
+        target='_blank'>
+        <img id='photoshop' src='images/photoshop.png'/>
+      </a>
+
+      <a href='https://getbootstrap.com/'
+        target='_blank'>
+        <img id='bootstrap' src='images/bootstrap.png'/>
+      </a>
+
     </div>
     <!-- End of TechSkills -->
   
@@ -215,17 +276,5 @@
   <!-- End of Footer -->
 
   </div>
-  <script type="text/javascript" src="https://js-dos.com/cdn/js-dos-api.js"></script>
-     <script type="text/javascript">
-       var dosbox = new Dosbox({
-         id: "dosbox",
-         onload: function (dosbox) {
-           dosbox.run("https://js-dos.com/cdn/OregonTrail.zip", "./OREGONTRAIL.COM");
-         },
-         onrun: function (dosbox, app) {
-           console.log("App '" + app + "' is runned");
-         }
-       });
-     </script>
 </body>
 </html>

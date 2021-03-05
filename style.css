@@ -139,6 +139,8 @@ body{
 /* OREGON TRAIL */
 .oregonContainer{
   text-align: center;
+  background-color: #f1f1f1;
+  padding: 5px;
 }
 
 /* TECHDIV */
