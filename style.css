@@ -6,6 +6,7 @@ body{
   /* font-family: 'Akaya Kanadaka', cursive; */
   font-family: 'VT323', monospace;
   display: flex;
+  cursor: url('/images/compcursor2.png'), auto;
 }
 
 /* HEADER */
@@ -94,7 +95,6 @@ body{
   width: 75px;
   height: 75px;
   padding: 20px;
-  
 }
 
 #linkedin{
