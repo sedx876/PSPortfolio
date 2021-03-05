@@ -5,17 +5,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" href="/images/code1.png"/>
+  <link rel="icon" type="image/png" href="/images/comp2.png"/>
   <link rel='stylesheet' href='style.css'/>
   <title>Sharon Watkins</title>
+  <style type="text/css">
+    .dosbox-container { width: 640px; height: 400px; }
+    .dosbox-container > .dosbox-overlay { background: url(https://js-dos.com/cdn/OregonTrail.png); }
+  </style>
 </head>
 <body>
   <div class='mainContainer'>
     <!-- Start of Header -->
     <div class='header'>
-      <a href="#default" class="logo">Sharon // Watkins</a>
+      <a href="#default" class="logo">
+        <span><img id='comp' src='images/comp2.png'/></span>
+        Sharon Watkins
+      </a>
     <div class="header-right">
-      <a class="active" href="#education">Education</a>
+      <a href="#education">Education</a>
       <a href="#experience">Experience</a>
       <a href="#techProjects">Technical Projects</a>
     </div>
@@ -26,7 +33,7 @@
     <!-- Start of Personal Info  -->
     <div class="personalInfo">
       <a href='https://github.com/sedx876' target='_blank'>
-        <img id='octocat' src='images/octocat.png'/>
+        <span><img id='octocat' src='images/octocat.png'/></span>
       </a>
 
       <a href='https://www.linkedin.com/in/sharonlwatkinsdev/' target='_blank'>
@@ -51,21 +58,43 @@
   <div class="introduction">
     <h2>Full Stack Software Engineer</h2>
 
-    <p>Experienced in Ruby on Rails and JavaScript based programming with a 
-      background in healthcare and media. Possesses strong skills in organization, 
-      mediation and project management that helps companies maintain and build 
-      existing projects. Mother who is successfully managing and educating 4 
-      children at home during the pandemic.
+    <p>The North remembers. The night is dark and full of terrors. The winds of 
+      Winter. Our Sun Shines Bright. All men must die. As High as Honor. I would 
+      like a trial by combat. It's ten thousand miles between Kings landing and 
+      the wall. Never Resting. Winter is coming. I would like a trial by combat. 
+      It's ten thousand miles between Kings landing and the wall. Pay the iron 
+      price. When you play the game of thrones, you win or you die. The wolf and 
+      the lion. Unbowed, Unbent, Unbroken. Dunc the Lunk, thick as a castle wall. 
+      More pigeon pie, please. More pigeon pie, please. May the Father judge him 
+      justly. The wolf and the lion. The War of the 5 kings. More pigeon pie, 
+      please. House Tarly of Horn Hill When you play the game of thrones, you win 
+      or you die. Forgive my manners. I don't see many ladies these days. Lucky 
+      for the ladies. Our Sun Shines Bright. It's ten thousand miles between Kings 
+      landing and the wall. What is dead may never die. You know nothing, Jon Snow. 
+      The rains of castamere. The Knight of Lemonwood. A good act does not wash out 
+      the bad, nor a bad act the good. Each should have its own reward. A dream of 
+      Spring. A Lannister always pays his debts. The rains of castamere. The night 
+      is dark and full of terrors. It's ten thousand miles between Kings landing 
+      and the wall. Our Sun Shines Bright. May the Father judge him justly.
     </p>
   </div>
   <!-- End of Introduction -->
+
+  <!-- POSSIBLE OREGON TRAIL GAME EMBED -->
+  <div class="oregonContainer">
+    <div class="embed-responsive embed-responsive-4by3">
+      <iframe class="embed-responsive-item" src="https://archive.org/embed/msdos_Oregon_Trail_The_1990" width="560" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+    </div>
+      
+    </div>
+  <!-- END OREGON TRAIL -->
 
 
   <!-- Start of TechSkills -->
   <div class="techDiv">
 
     <div class="techSkills">
-      <h3 id='tsTitle'>Technical Skills</h3>
+      <h2 id='tsTitle'>Technical Skills</h2>
       <img id='html' src='images/html.png'/>
       <img id='css' src='images/css.png'/>
       <img id='js' src='images/js.png'/>
@@ -79,38 +108,46 @@
       <img id='mongo' src='images/mongo.png'/>
       <img id='oop' src='images/oop.png'/>
       <img id='photoshop' src='images/photoshop.png'/>
+      <img id='bootstrap' src='images/bootstrap.png'/>
     </div>
     <!-- End of TechSkills -->
   
   
     <!-- Start of TechProjects -->
     <div id="techProjects">
-      <h3 id='tpTitle'>Technical Projects</h3>
+      <h2 id='tpTitle'>Technical Projects</h2>
       <ul>
-        <h3>D3PlayrCompanion - Github | Demo</h3>
+        <strong>D3PlayrCompanion - Github | Demo</strong>
+        <br/>
         <em>An app for players of Diablo 3 to help keep track of characters 
           that the user has built in-game with a digital card. Eliminates manual 
           means of tracking character and game changes.</em>
+          <!-- <br/><br/> -->
         <li>Implemented Bcrypt Gem and User Sessions to store encrypted user information.</li>
         <li>Employed Ruby on Rails as an API to handle backend information.</li>
         <li>Used React/Redux to present information to a user.</li>
         <li>Incorporated Redux-Thunk and Rack-CORS to bring together backend and frontend.</li>
       </ul>
+      <hr/>
 
       <ul>
-        <h3>MeetrReadr - Github | Demo</h3>
+        <strong>MeetrReadr - Github | Demo</strong>
+        <br/>
         <em>App for readers based on GoodReads to discover books and other avid 
           readers to help foster conversations and ideas.</em>
+          <!-- <br/><br/> -->
         <li>Utilized Github OAuth as an alternative login option.</li>
         <li>Exercised Ruby on Rails for both backend and frontend.</li>
         <li>Applied MVC pattern to handle logic and UI. </li>
         <li>Employed paperclip gem so users can upload images of books.</li>
       </ul>
-
+      <hr/>
       <ul>
-        <h3>Strain Domain - Github | Demo</h3>
+        <strong>Strain Domain - Github | Demo</strong>
+        <br/>
         <em>App for medical marijuana patients to track and journal what works 
           and what doesn’t work for their specific diagnosis.</em>
+          <!-- <br/><br/> -->
         <li>Employed Ruby on Rails as an API to handle backend information.</li>
         <li>Used Object Oriented Vanilla JavaScript for client-side presentation and DOM manipulation.</li>
         <li>Utilized SQLite relational DB to persist and maintain data.</li>
@@ -125,9 +162,12 @@
   <!-- Start of Experience -->
   <div id="experience">
     <h2 id='eTitle'>Experience:</h2>
-    <h3>GhostWalk Studios, LLC</h3>
-    <h4>Administrative Assistant//Art Department Assistant with an iMDB film credit</h4>
+    
     <ul>
+      <strong>GhostWalk Studios, LLC</strong>
+    <br/>
+    <strong>Administrative Assistant//Art Department Assistant with an iMDB film credit</strong>
+      <li>01/2009-06/2016</li>
       <li>Managed social media accounts to build online presence and branding.</li>
       <li>Helped Build and Maintain web site.</li>
       <li>Utilized Photoshop to create graphics and merchandise.</li>
@@ -136,9 +176,11 @@
       <li>Researched and presented various ideas and concepts to find a solution for specific problems.</li>
     </ul>
 
-    <h3>Represented Foundation</h3>
-    <h4>Volunteer Web Developer</h4>
     <ul>
+      <strong>Represented Foundation</strong>
+    <br/>
+    <strong>Volunteer Web Developer</strong>
+      <li>01/2021-Present</li>
       <li>Quality Assurance testing of site.</li>
       <li>Liason between board members and UI/UX team.</li>
     </ul>
@@ -148,15 +190,15 @@
 
   <!-- Start of Education -->
   <div id="education">
-    <h2>Education:</h2>
+    <h2 id='edTitle'>Education:</h2>
     <ul>
-      <h3>Flatiron School</h3>
+      <strong>Flatiron School</strong>
       <li>09/2019-10/2020</li>
       <li>Full Stack Software Engineering, Ruby on Rails and JavaScript program</li>
     </ul>
     <br/>
     <ul>
-      <h3>PerScholas</h3>
+      <strong>PerScholas</strong>
       <li>02/2021-Present</li>
       <li>Application Development Manager Training</li>
     </ul>
@@ -173,5 +215,17 @@
   <!-- End of Footer -->
 
   </div>
+  <script type="text/javascript" src="https://js-dos.com/cdn/js-dos-api.js"></script>
+     <script type="text/javascript">
+       var dosbox = new Dosbox({
+         id: "dosbox",
+         onload: function (dosbox) {
+           dosbox.run("https://js-dos.com/cdn/OregonTrail.zip", "./OREGONTRAIL.COM");
+         },
+         onrun: function (dosbox, app) {
+           console.log("App '" + app + "' is runned");
+         }
+       });
+     </script>
 </body>
 </html>
