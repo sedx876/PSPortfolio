@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
 :root{
   --mainColor: #004C54;
   --blockColor: #A5ACAF;
   --fontColor: #000000;
   --shadowColor: #001719;
   --hoverColor: #004C54;
+  --mainFont: 'Pangolin', cursive;
 }

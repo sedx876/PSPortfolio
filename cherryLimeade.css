@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
 :root{
   --mainColor: #385815;
   --blockColor: #CBE371;
   --fontColor: #CB2D4E;
   --shadowColor: #3b470e;
   --hoverColor: #385815;
+  --mainFont: 'Love Ya Like A Sister', cursive;
 }

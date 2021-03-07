@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
 :root{
   --mainColor: #0C233F;
   --blockColor: #D44500;
   --fontColor: #E2E2E2;
   --shadowColor: #4b1800;
   --hoverColor: #0C233F;
+  --mainFont: 'Graduate', cursive;
 }

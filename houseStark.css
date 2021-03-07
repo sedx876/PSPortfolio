@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
 :root{
   --mainColor: #37474E;
   --blockColor: #D2D4DA;
   --fontColor: #495966;
   --shadowColor: #283138;
   --hoverColor: #37474E;
+  --mainFont: 'Cinzel Decorative', cursive;
 }

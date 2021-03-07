@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@1,300&display=swap');
+
 :root{
   --mainColor: #6C5B7B;
   --blockColor: #F8B195;
   --fontColor: #355C7D;
   --shadowColor: #355C7D;
   --hoverColor: #6C5B7B;
+  --mainFont: 'Averia Libre', cursive;
 }

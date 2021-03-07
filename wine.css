@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
 :root{
   --mainColor: #571032;
   --blockColor: #B07289;
   --fontColor: #D1F3DE;
   --shadowColor: #250715;
   --hoverColor: #571032;
+  --mainFont: 'Kalam', cursive;
 }

@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@200&display=swap');
+
 :root{
   --mainColor: #E84A5F;
   --blockColor: #FF847C;
   --fontColor: #2A363B;
   --shadowColor: #2A363B;
   --hoverColor: #E84A5F;
+  --mainFont: 'Grandstander', cursive;
 }

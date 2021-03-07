@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 :root{
   --mainColor: #ffffff;
@@ -23,12 +24,15 @@
   --midnightColor: #240c44;
   --chocolateMintColor: #65dcb4;
   --shadowColor: #464646; 
+  --mainFont: 'Inconsolata', monospace;
+  --customCursor: url('/images/compcursor2.png'), auto;
 }
 
 body{
   margin: 0;
-  font-family: 'VT323', monospace;
-  cursor: url('/images/compcursor2.png'), auto;
+  /* font-family: 'VT323', monospace; */
+  /* font-family: 'Inconsolata', monospace; */
+  cursor: var(--customCursor);
   background-color: var(--mainColor)
 }
 
@@ -38,6 +42,7 @@ body{
   background-color: var(--blockColor);
   padding: 0.625rem 0.625rem;
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+  font-family: var(--mainFont);
 }
 
 /* Style the header links */
@@ -105,6 +110,8 @@ body{
   flex: 6  5%;
   color: var(--fontColor);
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+  font-family: var(--mainFont);
+  text-decoration: underline;
 }
 
 #octocat{
@@ -149,6 +156,8 @@ body{
   flex: 5  8%;
   color: var(--fontColor);
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+  font-family: var(--mainFont);
+  text-decoration: underline;
 }
 
 #theme-options-wrapper{
@@ -342,6 +351,11 @@ span{
   padding: 1rem;
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   text-shadow: 1px 1px 1px #ccc;
+  font-family: var(--mainFont);
+}
+
+#introTitle{
+  text-decoration: underline;
 }
 
 .introduction > p{
@@ -382,6 +396,7 @@ span{
   flex: 5  8%;
   color: var(--fontColor);
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+  font-family: var(--mainFont);
 }
 
 #tsTitle{
@@ -389,100 +404,100 @@ span{
 }
 
 #html{
-  height: 4rem;
-	width: 4rem;
-  float: left;
+  height: 5rem;
+	width: 5rem;
+  float: center;
   padding: .3rem;
 }
 
 #css{
-  height: 4rem;
-	width: 4rem;
-  float: left;
+  height: 5rem;
+	width: 5rem;
+  float: center;
   padding: .3rem;
 }
 
 #js{
-  height: 4rem;
-	width: 4rem;
-  float: left;
+  height: 5rem;
+	width: 5rem;
+  float: center;
   padding: .3rem;
 }
 
 #ruby{
-  height: 4rem;
-	width: 4rem;
-  float: left;
+  height: 5rem;
+	width: 5rem;
+  float: center;
   padding: .3rem;
 }
 
 #rails{
-  height: 4rem;
-	width: 4rem;
-  float: left;
+  height: 5rem;
+	width: 5rem;
+  float: center;
   padding: .3rem;
 }
 
 #react{
-  height: 4rem;
-	width: 4rem;
-  float: left;
+  height: 5rem;
+	width: 5rem;
+  float: center;
   padding: .3rem;
 }
 
 #redux{
-  height: 4rem;
-	width: 4rem;
-  float: left;
+  height: 5rem;
+	width: 5rem;
+  float: center;
   padding: .3rem;
 }
 
 #java{
-  height: 4rem;
-	width: 4rem;
-  float: left;
+  height: 5rem;
+	width: 5rem;
+  float: center;
   padding: .3rem;
 }
 
 #node{
-  height: 4rem;
-	width: 4rem;
-  float: left;
+  height: 5rem;
+	width: 5rem;
+  float: center;
   padding: .3rem;
 }
 
 #sql{
-  height: 4rem;
-	width: 4rem;
-  float: left;
+  height: 5rem;
+	width: 5rem;
+  float: center;
   padding: .3rem;
 }
 
 #mongo{
-  height: 4rem;
-	width: 4rem;
-  float: left;
+  height: 5rem;
+	width: 5rem;
+  float: center;
   padding: .3rem;
 }
 
 #oop{
-  height: 4rem;
-	width: 4rem;
-  float: left;
+  height: 5rem;
+	width: 5rem;
+  float: center;
   padding: .3rem;
 }
 
 #photoshop{
-  height: 4rem;
-	width: 4rem;
-  float: left;
+  height: 5rem;
+	width: 5rem;
+  float: center;
   padding: .3rem;
 }
 
 #bootstrap{
-  height: 4rem;
-	width: 4rem;
-  float: left;
+  height: 5rem;
+	width: 5rem;
+  float: center;
   padding: .3rem;
 }
 /* END OF TECH SKILLS */
@@ -494,6 +509,7 @@ span{
   flex: 8  5%;
   color: var(--fontColor);
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+  font-family: var(--mainFont);
 }
 
 #tpTitle{
@@ -512,6 +528,7 @@ span{
   margin: 2rem;
   padding: 1rem;
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+  font-family: var(--mainFont);
 }
 
 #eTitle{
@@ -529,6 +546,7 @@ span{
   margin: 1rem;
   padding: 1rem;
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+  font-family: var(--mainFont);
 }
 
 #edTitle{
@@ -547,5 +565,6 @@ span{
   color: var(--fontColor);
   text-align: center;
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+  font-family: var(--mainFont);
 }
 /* END OF FOOTER */

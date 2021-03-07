@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
 :root{
   --mainColor: #4d2b25;
   --blockColor: #65dcb4;
-  --fontColor: #c1f1e1;
+  --fontColor: #326e5a;
   --shadowColor: #326e5a;
   --hoverColor: #4d2b25;
+  --mainFont: 'Lacquer', cursive;
 }

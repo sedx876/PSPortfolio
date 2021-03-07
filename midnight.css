@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 :root{
   --mainColor: #240c44;
   --blockColor: #241c64;
   --fontColor: #a1b3c0;
   --shadowColor: #342c50;
   --hoverColor: #240c44;
+  --mainFont: 'Oswald', sans-serif;
 }

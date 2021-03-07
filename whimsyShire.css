@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
 :root{
   --mainColor: #9E9CF3;
   --blockColor: #C367E7;
   --fontColor: #A9F392;
   --shadowColor: #4e1066;
   --hoverColor: #9E9CF3;
+  --mainFont: 'Chewy', cursive;
 }
