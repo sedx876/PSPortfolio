@@ -31,8 +31,8 @@ body{
 .header {
   overflow: hidden;
   background-color: var(--blockColor);
-  padding: 10px 10px;
-  box-shadow: 10px 10px 8px var(--shadowColor);
+  padding: 0.625rem 0.625rem;
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 /* Style the header links */
@@ -98,7 +98,7 @@ body{
   flex-basis: 40%;
   flex: 6  5%;
   color: var(--fontColor);
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 #octocat{
@@ -142,7 +142,7 @@ body{
   flex-basis: 20%;
   flex: 5  8%;
   color: var(--fontColor);
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 #theme-options-wrapper{
@@ -169,7 +169,7 @@ span{
 	width: 2rem;
   float: left;
   padding: .3rem;
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 #wine-mode{
@@ -178,7 +178,7 @@ span{
 	width: 2rem;
   float: left;
   padding: .3rem;
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 #iWantMyMTV-mode{
@@ -187,7 +187,7 @@ span{
 	width: 2rem;
   float: left;
   padding: .3rem;
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 #brPastel-mode{
@@ -196,7 +196,7 @@ span{
 	width: 2rem;
   float: left;
   padding: .3rem;
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 #goEagles-mode{
@@ -205,7 +205,7 @@ span{
 	width: 2rem;
   float: left;
   padding: .3rem;
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 #mrAnderson-mode{
@@ -214,7 +214,7 @@ span{
 	width: 2rem;
   float: left;
   padding: .3rem;
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 #whimsyShire-mode{
@@ -223,7 +223,7 @@ span{
 	width: 2rem;
   float: left;
   padding: .3rem;
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 #houseStark-mode{
@@ -232,7 +232,7 @@ span{
 	width: 2rem;
   float: left;
   padding: .3rem;
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 #goOrange-mode{
@@ -241,7 +241,7 @@ span{
 	width: 2rem;
   float: left;
   padding: .3rem;
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 #waves-mode{
@@ -250,7 +250,7 @@ span{
 	width: 2rem;
   float: left;
   padding: .3rem;
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 #cherryLimeade-mode{
@@ -259,7 +259,7 @@ span{
 	width: 2rem;
   float: left;
   padding: .3rem;
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 #subdued-mode{
@@ -268,7 +268,7 @@ span{
 	width: 2rem;
   float: left;
   padding: .3rem;
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 #coral-mode{
@@ -277,7 +277,7 @@ span{
 	width: 2rem;
   float: left;
   padding: .3rem;
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 /* END OF COLOR PICKER */
@@ -289,7 +289,7 @@ span{
   text-align: center;
   margin: 1rem;
   padding: 1rem;
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 .introduction > p{
@@ -303,7 +303,7 @@ span{
   background-color: var(--blockColor);
   padding: 1rem;
   margin: 1rem;
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 /* END OF OREGON TRAIL */
 
@@ -329,7 +329,7 @@ span{
   flex-basis: 20%;
   flex: 5  8%;
   color: var(--fontColor);
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 #tsTitle{
@@ -337,99 +337,99 @@ span{
 }
 
 #html{
-  height: 3rem;
-	width: 3rem;
+  height: 4rem;
+	width: 4rem;
   float: left;
   padding: .3rem;
 }
 
 #css{
-  height: 3rem;
-	width: 3rem;
+  height: 4rem;
+	width: 4rem;
   float: left;
   padding: .3rem;
 }
 
 #js{
-  height: 3rem;
-	width: 3rem;
+  height: 4rem;
+	width: 4rem;
   float: left;
   padding: .3rem;
 }
 
 #ruby{
-  height: 3rem;
-	width: 3rem;
+  height: 4rem;
+	width: 4rem;
   float: left;
   padding: .3rem;
 }
 
 #rails{
-  height: 3rem;
-	width: 3rem;
+  height: 4rem;
+	width: 4rem;
   float: left;
   padding: .3rem;
 }
 
 #react{
-  height: 3rem;
-	width: 3rem;
+  height: 4rem;
+	width: 4rem;
   float: left;
   padding: .3rem;
 }
 
 #redux{
-  height: 3rem;
-	width: 3rem;
+  height: 4rem;
+	width: 4rem;
   float: left;
   padding: .3rem;
 }
 
 #java{
-  height: 3rem;
-	width: 3rem;
+  height: 4rem;
+	width: 4rem;
   float: left;
   padding: .3rem;
 }
 
 #node{
-  height: 3rem;
-	width: 3rem;
+  height: 4rem;
+	width: 4rem;
   float: left;
   padding: .3rem;
 }
 
 #sql{
-  height: 3rem;
-	width: 3rem;
+  height: 4rem;
+	width: 4rem;
   float: left;
   padding: .3rem;
 }
 
 #mongo{
-  height: 3rem;
-	width: 3rem;
+  height: 4rem;
+	width: 4rem;
   float: left;
   padding: .3rem;
 }
 
 #oop{
-  height: 3rem;
-	width: 3rem;
+  height: 4rem;
+	width: 4rem;
   float: left;
   padding: .3rem;
 }
 
 #photoshop{
-  height: 3rem;
-	width: 3rem;
+  height: 4rem;
+	width: 4rem;
   float: left;
   padding: .3rem;
 }
 
 #bootstrap{
-  height: 3rem;
-	width: 3rem;
+  height: 4rem;
+	width: 4rem;
   float: left;
   padding: .3rem;
 }
@@ -437,14 +437,11 @@ span{
 
 /* TECH PROJECTS */
 #techProjects{
-  /* text-align: center; */
   margin: 1rem;
   background-color:  var(--blockColor);
-  /* flex-direction: column; */
-  flex-basis: 40%;
   flex: 8  5%;
   color: var(--fontColor);
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 #tpTitle{
@@ -459,9 +456,9 @@ span{
   width: auto;
   height: auto;
   background-color: var(--blockColor);
-  margin: 5px;
-  padding: 5px;
-  box-shadow: 10px 10px 8px var(--fontColor);
+  margin: 2rem;
+  padding: 1rem;
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 #eTitle{
@@ -475,9 +472,9 @@ span{
   width: auto;
   height: auto;
   background-color: var(--blockColor);
-  margin: 10px;
-  padding: 5px;
-  box-shadow: 10px 10px 8px var(--fontColor);
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
 #edTitle{
@@ -495,6 +492,6 @@ span{
   background-color: var(--blockColor);
   color: var(--fontColor);
   text-align: center;
-  box-shadow: 10px 10px 8px var(--fontColor);
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 /* END OF FOOTER */
