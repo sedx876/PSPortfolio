@@ -7,5 +7,6 @@
   --shadowColor: #4b1800;
   --hoverColor: #0C233F;
   --mainFont: 'Graduate', cursive;
+  --textShadow: 1px 1px 1px #0C233F;
   --customCursor: url('/images/orangemenCursor.png'), auto;
 }

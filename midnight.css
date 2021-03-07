@@ -7,5 +7,6 @@
   --shadowColor: #342c50;
   --hoverColor: #240c44;
   --mainFont: 'Oswald', sans-serif;
+  --textShadow: 1px 1px 1px #240C44;
   --customCursor: url('/images/starCursor.png'), auto;
 }

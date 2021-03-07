@@ -25,6 +25,7 @@
   --chocolateMintColor: #65dcb4;
   --shadowColor: #464646; 
   --mainFont: 'Inconsolata', monospace;
+  --textShadow: 1px 1px 1px #DDDDDD;
   --customCursor: url('/images/compcursor2.png'), auto;
 }
 
@@ -61,7 +62,7 @@ body{
 .header a.logo {
   font-size: 25px;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #ccc;
+  text-shadow: var(--textShadow)
 }
 
 
@@ -73,6 +74,7 @@ body{
 
 .header-right {
   float: right;
+  text-shadow: var(--textShadow)
 }
 
 #comp{
@@ -112,6 +114,7 @@ body{
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   font-family: var(--mainFont);
   text-decoration: underline;
+  text-shadow: var(--textShadow)
 }
 
 #octocat{
@@ -158,6 +161,10 @@ body{
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   font-family: var(--mainFont);
   text-decoration: underline;
+}
+
+.cpTitle{
+  text-shadow: var(--textShadow)
 }
 
 #theme-options-wrapper{
@@ -350,7 +357,7 @@ span{
   margin: 1rem;
   padding: 1rem;
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
-  text-shadow: 1px 1px 1px #ccc;
+  text-shadow: var(--textShadow);
   font-family: var(--mainFont);
 }
 
@@ -397,6 +404,7 @@ span{
   color: var(--fontColor);
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   font-family: var(--mainFont);
+  text-shadow: var(--textShadow)
 }
 
 #tsTitle{
@@ -510,6 +518,7 @@ span{
   color: var(--fontColor);
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   font-family: var(--mainFont);
+  text-shadow: var(--textShadow)
 }
 
 #tpTitle{
@@ -529,6 +538,7 @@ span{
   padding: 1rem;
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   font-family: var(--mainFont);
+  text-shadow: var(--textShadow)
 }
 
 #eTitle{
@@ -547,6 +557,7 @@ span{
   padding: 1rem;
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   font-family: var(--mainFont);
+  text-shadow: var(--textShadow)
 }
 
 #edTitle{
@@ -566,5 +577,6 @@ span{
   text-align: center;
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   font-family: var(--mainFont);
+  text-shadow: var(--textShadow)
 }
 /* END OF FOOTER */

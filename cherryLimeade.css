@@ -7,5 +7,6 @@
   --shadowColor: #3b470e;
   --hoverColor: #385815;
   --mainFont: 'Love Ya Like A Sister', cursive;
+  --textShadow: 1px 1px 1px #385815;
   --customCursor: url('/images/cherrylimeadeCursor.png'), auto;
 }

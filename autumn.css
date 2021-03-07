@@ -7,5 +7,6 @@
   --shadowColor: #3e0f02;
   --hoverColor: #603C14;
   --mainFont: 'Cabin Sketch', cursive;
+  --textShadow: 1px 1px 1px #603C14;
   --customCursor: url('/images/coffeeCursor.png'), auto;
 }

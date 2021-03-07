@@ -7,5 +7,6 @@
   --shadowColor: #00761E;
   --hoverColor: #00761E;
   --mainFont: 'Cutive Mono', monospace;
+  --textShadow: 1px 1px 1px #003B00;
   --customCursor: url('/images/matrixCursor.png'), auto;
 }
