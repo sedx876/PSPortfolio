@@ -72,5 +72,17 @@ function setTheme(mode){
 		document.getElementById('theme-style').href = 'coral.css'
 	}
 
+	if(mode == 'happy'){
+		document.getElementById('theme-style').href = 'happy.css'
+	}
+
+	if(mode == 'berry'){
+		document.getElementById('theme-style').href = 'berry.css'
+	}
+
+	if(mode == 'autumn'){
+		document.getElementById('theme-style').href = 'autumn.css'
+	}
+
 	localStorage.setItem('theme', mode)
 }

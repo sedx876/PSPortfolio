@@ -17,6 +17,9 @@
   --cherryLimeadeColor: #CBE371;
   --subduedColor: #6c5b7b;
   --coralColor: #e84a5f;
+  --happyColor: #EC2049;
+  --berryColor: #E8175D;
+  --autumnColor: #603C14;
   --shadowColor: #464646; 
 }
 
@@ -51,6 +54,7 @@ body{
 .header a.logo {
   font-size: 25px;
   font-weight: bold;
+  text-shadow: 1px 1px 1px #ccc;
 }
 
 
@@ -280,6 +284,33 @@ span{
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
+#happy-mode{
+  background-color: var(--happyColor);
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+}
+
+#berry-mode{
+  background-color: var(--berryColor);
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+}
+
+#autumn-mode{
+  background-color: var(--autumnColor);
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+}
+
 /* END OF COLOR PICKER */
 
 /* INTRODUCTION  */
@@ -290,6 +321,7 @@ span{
   margin: 1rem;
   padding: 1rem;
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+  text-shadow: 1px 1px 1px #ccc;
 }
 
 .introduction > p{
