@@ -84,5 +84,13 @@ function setTheme(mode){
 		document.getElementById('theme-style').href = 'autumn.css'
 	}
 
+	if(mode == 'midnight'){
+		document.getElementById('theme-style').href = 'midnight.css'
+	}
+
+	if(mode == 'chocolateMint'){
+		document.getElementById('theme-style').href = 'chocolateMint.css'
+	}
+
 	localStorage.setItem('theme', mode)
 }

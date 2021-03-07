@@ -20,6 +20,8 @@
   --happyColor: #EC2049;
   --berryColor: #E8175D;
   --autumnColor: #603C14;
+  --midnightColor: #240c44;
+  --chocolateMintColor: #65dcb4;
   --shadowColor: #464646; 
 }
 
@@ -304,6 +306,24 @@ span{
 
 #autumn-mode{
   background-color: var(--autumnColor);
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+}
+
+#midnight-mode{
+  background-color: var(--midnightColor);
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+}
+
+#chocolateMint-mode{
+  background-color: var(--chocolateMintColor);
   height: 2rem;
 	width: 2rem;
   float: left;
