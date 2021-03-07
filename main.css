@@ -293,7 +293,7 @@ span{
 }
 
 .introduction > p{
-  font-size: 1.5rem;
+  font-size: 1.125rem;
 }
 /* END OF INTRODUCTION */
 
@@ -456,6 +456,7 @@ span{
   width: auto;
   height: auto;
   background-color: var(--blockColor);
+  color: var(--fontColor);
   margin: 2rem;
   padding: 1rem;
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
@@ -472,6 +473,7 @@ span{
   width: auto;
   height: auto;
   background-color: var(--blockColor);
+  color: var(--fontColor);
   margin: 1rem;
   padding: 1rem;
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
