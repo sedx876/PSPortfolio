@@ -7,4 +7,5 @@
   --shadowColor: #355C7D;
   --hoverColor: #6C5B7B;
   --mainFont: 'Averia Libre', cursive;
+  --customCursor: url('/images/kittenCursor.png'), auto;
 }

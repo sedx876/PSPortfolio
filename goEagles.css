@@ -7,4 +7,5 @@
   --shadowColor: #001719;
   --hoverColor: #004C54;
   --mainFont: 'Pangolin', cursive;
+  --customCursor: url('/images/eagleCursor.png'), auto;
 }

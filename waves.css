@@ -7,4 +7,5 @@
   --shadowColor: #043437;
   --hoverColor: #003B46;
   --mainFont: 'Calligraffitti', cursive;
+  --customCursor: url('/images/wavesCursor.png'), auto;
 }

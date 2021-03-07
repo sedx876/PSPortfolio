@@ -7,4 +7,5 @@
   --shadowColor: #250715;
   --hoverColor: #571032;
   --mainFont: 'Kalam', cursive;
+  --customCursor: url('/images/wineCursor.png'), auto;
 }

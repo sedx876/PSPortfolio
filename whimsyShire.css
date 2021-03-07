@@ -7,4 +7,5 @@
   --shadowColor: #4e1066;
   --hoverColor: #9E9CF3;
   --mainFont: 'Chewy', cursive;
+  --customCursor: url('/images/diabloCursor.png'), auto;
 }

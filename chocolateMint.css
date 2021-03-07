@@ -7,4 +7,5 @@
   --shadowColor: #326e5a;
   --hoverColor: #4d2b25;
   --mainFont: 'Lacquer', cursive;
+  --customCursor: url('/images/icecreamCursor.png'), auto;
 }

@@ -7,4 +7,5 @@
   --shadowColor: #2F0058;
   --hoverColor: #FF5DE8;
   --mainFont: 'Special Elite', cursive;
+  --customCursor: url('/images/mtvCursor.png'), auto;
 }

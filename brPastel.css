@@ -7,4 +7,5 @@
   --shadowColor: #037A90;
   --hoverColor: #00C2BA;
   --mainFont: 'Philosopher', sans-serif;
+  --customCursor: url('/images/cupcakeCursor.png'), auto;
 }

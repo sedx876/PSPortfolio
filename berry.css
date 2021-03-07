@@ -7,4 +7,5 @@
   --shadowColor: #641d34;
   --hoverColor: #E8175D;
   --mainFont: 'Hi Melody', cursive;
+  --customCursor: url('/images/berryCursor.png'), auto;
 }

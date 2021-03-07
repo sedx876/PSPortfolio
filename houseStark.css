@@ -7,4 +7,5 @@
   --shadowColor: #283138;
   --hoverColor: #37474E;
   --mainFont: 'Cinzel Decorative', cursive;
+  --customCursor: url('/images/jonsnowCursor.png'), auto;
 }

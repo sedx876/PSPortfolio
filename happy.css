@@ -7,4 +7,5 @@
   --shadowColor: #4b1800;
   --hoverColor: #EC2049;
   --mainFont: 'Finger Paint', cursive;
+  --customCursor: url('/images/sunCursor.png'), auto;
 }
