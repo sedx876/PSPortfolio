@@ -4,14 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel='stylesheet' href='main.css'/>
+  <link id="theme-style" rel="stylesheet" type="text/css" href="">
   <link rel="icon" type="image/png" href="/images/comp2.png"/>
-  <link rel='stylesheet' href='styles/main.css'/>
-  <title>Sharon Watkins</title>
+  <title>Document</title>
 </head>
 <body>
-  <div class='mainContainer'>
-    <!-- Start of Header -->
+
+  <div class="mainContainer">
+      <!-- START OF HEADER -->
     <div class='header'>
       <a href="#default" class="logo">
         <span><img id='comp' src='images/comp2.png'/></span>
@@ -23,34 +24,101 @@
       <a href="#techProjects">Technical Projects</a>
     </div>
     </div>
-  <!-- End of Header -->
+    <!-- END OF HEADER -->
 
+    <!-- TOP FLEX -->
+    <div class="topFlex">
 
-    <!-- Start of Personal Info  -->
-    <div class="personalInfo">
-      <a href='https://github.com/sedx876' target='_blank'>
-        <span><img id='octocat' src='images/octocat.png'/></span>
-      </a>
+      <!-- PERSONAL INFO -->
+      <div class="personalInfo">
+        <h2>Find Me:</h2>
+        <a href='https://github.com/sedx876' target='_blank'>
+          <span><img id='octocat' src='images/octocat.png'/></span>
+        </a>
+    
+        <a href='https://www.linkedin.com/in/sharonlwatkinsdev/' target='_blank'>
+          <img id='linkedin' src='images/linkedin.png'/>
+        </a>
+    
+        <a href='https://sedx876.medium.com/' target='_blank'>
+          <img id='blog' src='images/blog.png'/>
+        </a>
+    
+        <a href='https://twitter.com/SedX876' target='_blank'>
+          <img id='twitter' src='images/twitter.png'/>
+        </a>
+    
+        <a href='mailto:swatkins876@gmail.com'>
+          <img id='email' src='images/email.png'/>
+        </a>
+      </div>
+      <!-- END OF PERSONAL INFO -->
 
-      <a href='https://www.linkedin.com/in/sharonlwatkinsdev/' target='_blank'>
-        <img id='linkedin' src='images/linkedin.png'/>
-      </a>
+      <!-- COLOR PICKER -->
+      <div id="colorPicker">
+        <h2>Enjoy Your Stay and Pick a Color Theme:</h2>
 
-      <a href='https://sedx876.medium.com/' target='_blank'>
-        <img id='blog' src='images/blog.png'/>
-      </a>
+      <div id="theme-options-wrapper">
+        <div class='dots'>
+          <div data-mode="main" id="main-mode" class="theme-dot">
+            <span title="Blahhh!!">MouseOver</span>
+          </div>
 
-      <a href='https://twitter.com/SedX876' target='_blank'>
-        <img id='twitter' src='images/twitter.png'/>
-      </a>
+          <div data-mode="wine" id="wine-mode" class="theme-dot">
+            <span title="Wine">MouseOver</span>
+          </div>
 
-      <a href='mailto:swatkins876@gmail.com'>
-        <img id='email' src='images/email.png'/>
-      </a>
+          <div data-mode="iWantMyMTV" id="iWantMyMTV-mode" class="theme-dot">
+            <span title="I Want My MTV">MouseOver</span>
+          </div>
+
+          <div data-mode="brPastel" id="brPastel-mode" class="theme-dot">
+            <span title="Bright Pastel">MouseOver</span>
+          </div>
+
+          <div data-mode="goEagles" id="goEagles-mode" class="theme-dot">
+            <span title="Go Eagles!!">MouseOver</span>
+          </div>
+
+          <div data-mode="mrAnderson" id="mrAnderson-mode" class="theme-dot">
+            <span title="Mr Anderson">MouseOver</span>
+          </div>
+
+          <div data-mode="whimsyShire" id="whimsyShire-mode" class="theme-dot">
+            <span title="WhimsyShire">MouseOver</span>
+          </div>
+
+          <div data-mode="houseStark" id="houseStark-mode" class="theme-dot">
+            <span title="Winter is Coming">MouseOver</span>
+          </div>
+
+          <div data-mode="goOrange" id="goOrange-mode" class="theme-dot">
+            <span title="Go Orange">MouseOver</span>
+          </div>
+
+          <div data-mode="waves" id="waves-mode" class="theme-dot">
+            <span title="Waves">MouseOver</span>
+          </div>
+
+          <div data-mode="cherryLimeade" id="cherryLimeade-mode" class="theme-dot">
+            <span title="Cherry LimeAde">MouseOver</span>
+          </div>
+
+          <div data-mode="subdued" id="subdued-mode" class="theme-dot">
+            <span title="Subdued">MouseOver</span>
+          </div>
+
+          <div data-mode="coral" id="coral-mode" class="theme-dot">
+            <span title="Coral">MouseOver</span>
+          </div>
+      </div>
+      </div>
+      
     </div>
-  <!-- End of Personal Info -->
-
-  <!-- Start of Introduction -->
+    <!-- END OF COLOR PICKER -->
+    </div>
+    <!-- END OF TOP FLEX -->
+    <!-- Start of Introduction -->
   <div class="introduction">
     <h2>Full Stack Software Engineer</h2>
 
@@ -76,7 +144,7 @@
   </div>
   <!-- End of Introduction -->
 
-  <!-- POSSIBLE OREGON TRAIL GAME EMBED -->
+  <!-- OREGON TRAIL  -->
   <div class="oregonContainer">
     <div>
       <iframe class="embed-responsive-item" 
@@ -89,14 +157,9 @@
         allowfullscreen>
       </iframe>
     </div>
-      
     </div>
-  <!-- END OREGON TRAIL -->
-
-
-  <!-- Start of TechSkills -->
-  <div class="techDiv">
-
+  <!-- END OF OREGON TRAIL -->
+  <div class='techDiv'>
     <div class="techSkills">
       <h2 id='tsTitle'>Technical Skills</h2>
 
@@ -169,11 +232,10 @@
         target='_blank'>
         <img id='bootstrap' src='images/bootstrap.png'/>
       </a>
-
     </div>
-    <!-- End of TechSkills -->
-  
-  
+    <!-- END OF TECH SKILLS -->
+
+    <!-- TECH PROJECTS  -->
     <!-- Start of TechProjects -->
     <div id="techProjects">
       <h2 id='tpTitle'>Technical Projects</h2>
@@ -216,11 +278,10 @@
       </ul>
     </div>
     <!-- End of TechProjects -->
+    <!-- END OF TECH PROJECTS -->
   </div>
-  
 
-
-  <!-- Start of Experience -->
+    <!-- Start of Experience -->
   <div id="experience">
     <h2 id='eTitle'>Experience:</h2>
     
@@ -248,7 +309,6 @@
   </div>
   <!-- End of Experience -->
 
-
   <!-- Start of Education -->
   <div id="education">
     <h2 id='edTitle'>Education:</h2>
@@ -274,7 +334,7 @@
       </footer>
     </div>
   <!-- End of Footer -->
-
   </div>
+  <script type="text/javascript" src="app.js"></script>
 </body>
 </html>

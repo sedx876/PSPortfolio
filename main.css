@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root{
+  --mainColor: #ffffff;
+  --blockColor: #f1f1f1;
+  --fontColor: #000000;
+  --hoverColor: #ddd;
+  --wineColor: #571032;
+  --iWantMyMTVColor: #ff5de8;
+  --brPastelColor: #00c2ba;
+  --goEagles: #004c54;
+  --mrAndersonColor: #003b00;
+  --whimsyShireColor: #9e9cf3;
+  --houseStarkColor: #37474e;
+  --goOrangeColor: #d44500;
+  --wavesColor: #003b46;
+  --cherryLimeadeColor: #CBE371;
+  --subduedColor: #6c5b7b;
+  --coralColor: #e84a5f;
+  --shadowColor: #464646; 
+}
+
+body{
+  margin: 0;
+  font-family: 'VT323', monospace;
+  cursor: url('/images/compcursor2.png'), auto;
+  background-color: var(--mainColor)
+}
+
+/* START OF HEADER */
+.header {
+  overflow: hidden;
+  background-color: var(--blockColor);
+  padding: 10px 10px;
+  box-shadow: 10px 10px 8px var(--shadowColor);
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: var(--fontColor);
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.header a:hover {
+  background-color: var(--hoverColor);
+  color: var(--fontColor);
+}
+
+
+.header-right {
+  float: right;
+}
+
+#comp{
+  width: 8%;
+  height: 8%;
+}
+
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+/* END OF HEADER */
+
+/* TOPFLEX */
+.topFlex{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* END OF TOPFLEX */
+
+/* PERSONAL INFO */
+.personalInfo{
+  text-align: center;
+  margin: 10px;
+  background-color:  var(--blockColor);
+  /* flex-direction: column; */
+  flex-basis: 40%;
+  flex: 6  5%;
+  color: var(--fontColor);
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+#octocat{
+  width: 75px;
+  height: 75px;
+  padding: 20px;
+}
+
+#linkedin{
+  width: 75px;
+  height: 75px;
+  padding: 20px;
+}
+
+#twitter{
+  width: 75px;
+  height: 75px;
+  padding: 20px;
+}
+
+#blog{
+  width: 75px;
+  height: 75px;
+  padding: 20px;
+}
+
+#email{
+  width: 75px;
+  height: 75px;
+  padding: 20px;
+}
+/* END OF PERSONAL INFO */
+
+/* START OF COLOR PICKER */
+#colorPicker{
+  background-color: var(--blockColor);
+  text-align: center;
+  height: auto;
+  width: auto;
+  margin: 1rem;
+  flex-basis: 20%;
+  flex: 5  8%;
+  color: var(--fontColor);
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+#theme-options-wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.theme-dot{
+  border-radius: 50%;
+  border: 2px solid var(--fontColor);
+  padding: 2rem;
+  margin: 1rem;
+}
+
+span{
+  /* display: none;
+  overflow: hidden; */
+  color: transparent;
+}
+
+#main-mode{
+  background-color: white;
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+#wine-mode{
+  background-color: var(--wineColor);
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+#iWantMyMTV-mode{
+  background-color: var(--iWantMyMTVColor);
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+#brPastel-mode{
+  background-color: var(--brPastelColor);
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+#goEagles-mode{
+  background-color: var(--goEagles);
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+#mrAnderson-mode{
+  background-color: var(--mrAndersonColor);
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+#whimsyShire-mode{
+  background-color: var(--whimsyShireColor);
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+#houseStark-mode{
+  background-color: var(--houseStarkColor);
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+#goOrange-mode{
+  background-color: var(--goOrangeColor);
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+#waves-mode{
+  background-color: var(--wavesColor);
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+#cherryLimeade-mode{
+  background-color: var(--cherryLimeadeColor);
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+#subdued-mode{
+  background-color: var(--subduedColor);
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+#coral-mode{
+  background-color: var(--coralColor);
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+/* END OF COLOR PICKER */
+
+/* INTRODUCTION  */
+.introduction{
+  background-color: var(--blockColor);
+  color: var(--fontColor);
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+.introduction > p{
+  font-size: 1.5rem;
+}
+/* END OF INTRODUCTION */
+
+/* OREGON TRAIL  */
+.oregonContainer{
+  text-align: center;
+  background-color: var(--blockColor);
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+/* END OF OREGON TRAIL */
+
+/* TECH DIV  */
+.techDiv{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* TECH SKILLS  */
+.techSkills{
+  /* background-color: var(--blockColor);
+  text-align: center;
+  width: auto;
+  height: auto;
+  flex: 1 0 30%; */
+
+  background-color: var(--blockColor);
+  text-align: center;
+  height: 75%;
+  width: auto;
+  margin: 1rem;
+  flex-basis: 20%;
+  flex: 5  8%;
+  color: var(--fontColor);
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+#tsTitle{
+  text-decoration: underline;
+}
+
+#html{
+  height: 3rem;
+	width: 3rem;
+  float: left;
+  padding: .3rem;
+}
+
+#css{
+  height: 3rem;
+	width: 3rem;
+  float: left;
+  padding: .3rem;
+}
+
+#js{
+  height: 3rem;
+	width: 3rem;
+  float: left;
+  padding: .3rem;
+}
+
+#ruby{
+  height: 3rem;
+	width: 3rem;
+  float: left;
+  padding: .3rem;
+}
+
+#rails{
+  height: 3rem;
+	width: 3rem;
+  float: left;
+  padding: .3rem;
+}
+
+#react{
+  height: 3rem;
+	width: 3rem;
+  float: left;
+  padding: .3rem;
+}
+
+#redux{
+  height: 3rem;
+	width: 3rem;
+  float: left;
+  padding: .3rem;
+}
+
+#java{
+  height: 3rem;
+	width: 3rem;
+  float: left;
+  padding: .3rem;
+}
+
+#node{
+  height: 3rem;
+	width: 3rem;
+  float: left;
+  padding: .3rem;
+}
+
+#sql{
+  height: 3rem;
+	width: 3rem;
+  float: left;
+  padding: .3rem;
+}
+
+#mongo{
+  height: 3rem;
+	width: 3rem;
+  float: left;
+  padding: .3rem;
+}
+
+#oop{
+  height: 3rem;
+	width: 3rem;
+  float: left;
+  padding: .3rem;
+}
+
+#photoshop{
+  height: 3rem;
+	width: 3rem;
+  float: left;
+  padding: .3rem;
+}
+
+#bootstrap{
+  height: 3rem;
+	width: 3rem;
+  float: left;
+  padding: .3rem;
+}
+/* END OF TECH SKILLS */
+
+/* TECH PROJECTS */
+#techProjects{
+  /* text-align: center; */
+  margin: 1rem;
+  background-color:  var(--blockColor);
+  /* flex-direction: column; */
+  flex-basis: 40%;
+  flex: 8  5%;
+  color: var(--fontColor);
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+#tpTitle{
+  text-decoration: underline;
+  text-align: center;
+}
+/* END OF PROJECTS */
+/* END OF TECH DIV */
+
+/* EXPERIENCE */
+#experience{
+  width: auto;
+  height: auto;
+  background-color: var(--blockColor);
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+#eTitle{
+  text-decoration: underline;
+}
+
+/* END OF EXPERIENCE */
+
+/* EDUCATION */
+#education{
+  width: auto;
+  height: auto;
+  background-color: var(--blockColor);
+  margin: 10px;
+  padding: 5px;
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+
+#edTitle{
+  text-decoration: underline;
+}
+/* END OF EDUCATION */
+
+/* FOOTER */
+.footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: var(--blockColor);
+  color: var(--fontColor);
+  text-align: center;
+  box-shadow: 10px 10px 8px var(--fontColor);
+}
+/* END OF FOOTER */
