@@ -22,6 +22,7 @@
   --autumnColor: #603C14;
   --midnightColor: #240c44;
   --chocolateMintColor: #65dcb4;
+  --zombieColor: #5e967b;
   --shadowColor: #464646; 
   --mainFont: 'Inconsolata', monospace;
   --textShadow: 1px 1px 1px #DDDDDD;
@@ -375,7 +376,7 @@ span{
 }
 
 #zombie-mode{
-  background-color: var(--chocolateMintColor);
+  background-color: var(--zombieColor);
   height: 2rem;
 	width: 2rem;
   float: left;

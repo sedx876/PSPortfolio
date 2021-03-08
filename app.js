@@ -92,5 +92,9 @@ function setTheme(mode){
 		document.getElementById('theme-style').href = 'chocolateMint.css'
 	}
 
+	if(mode == 'zombie'){
+		document.getElementById('theme-style').href = 'zombie.css'
+	}
+
 	localStorage.setItem('theme', mode)
 }
