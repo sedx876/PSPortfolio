@@ -8,4 +8,5 @@
   --hoverColor: #FF5DE8;
   --mainFont: 'Special Elite', cursive;
   --customCursor: url('/images/mtvCursor.png'), auto;
+  --borderBox: 3px groove #FF5DE8;
 }

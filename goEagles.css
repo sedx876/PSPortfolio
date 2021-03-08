@@ -8,4 +8,5 @@
   --hoverColor: #004C54;
   --mainFont: 'Pangolin', cursive;
   --customCursor: url('/images/eagleCursor.png'), auto;
+  --borderBox: 3px groove #004C54;
 }

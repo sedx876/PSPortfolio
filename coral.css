@@ -8,4 +8,5 @@
   --hoverColor: #E84A5F;
   --mainFont: 'Grandstander', cursive;
   --customCursor: url('/images/unimaidCursor.png'), auto;
+  --borderBox: 3px groove #E84A5F;
 }

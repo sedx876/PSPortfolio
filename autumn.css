@@ -9,4 +9,5 @@
   --mainFont: 'Cabin Sketch', cursive;
   --textShadow: 1px 1px 1px #603C14;
   --customCursor: url('/images/coffeeCursor.png'), auto;
+  --borderBox: 3px groove #603C14;
 }

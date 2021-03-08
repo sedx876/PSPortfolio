@@ -9,4 +9,5 @@
   --mainFont: 'Chewy', cursive;
   --textShadow: 2px 2px 2px #9E9CF3;
   --customCursor: url('/images/diabloCursor.png'), auto;
+  --borderBox: 3px groove #9E9CF3;
 }

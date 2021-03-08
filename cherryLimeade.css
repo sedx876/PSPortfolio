@@ -9,4 +9,5 @@
   --mainFont: 'Love Ya Like A Sister', cursive;
   --textShadow: 1px 1px 1px #385815;
   --customCursor: url('/images/cherrylimeadeCursor.png'), auto;
+  --borderBox: 3px groove #CB2D4E;
 }

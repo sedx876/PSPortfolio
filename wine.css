@@ -9,4 +9,5 @@
   --mainFont: 'Kalam', cursive;
   --textShadow: 1px 1px 1px #571032;
   --customCursor: url('/images/wineCursor.png'), auto;
+  --borderBox: 3px groove #571032;
 }

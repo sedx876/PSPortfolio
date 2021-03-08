@@ -9,4 +9,5 @@
   --mainFont: 'Cinzel Decorative', cursive;
   --textShadow: 1px 1px 1px #37474E;
   --customCursor: url('/images/jonsnowCursor.png'), auto;
+  --borderBox: 3px groove #37474E;
 }

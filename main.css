@@ -1,4 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 :root{
@@ -26,15 +25,28 @@
   --shadowColor: #464646; 
   --mainFont: 'Inconsolata', monospace;
   --textShadow: 1px 1px 1px #DDDDDD;
+  --borderBox: 3px groove black;
   --customCursor: url('/images/compcursor2.png'), auto;
 }
 
 body{
   margin: 0;
-  /* font-family: 'VT323', monospace; */
-  /* font-family: 'Inconsolata', monospace; */
   cursor: var(--customCursor);
   background-color: var(--mainColor)
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited{
+  text-decoration: none;
+}
+a:active{
+  text-decoration: none;
+}
+a:link{
+  text-decoration: none;
 }
 
 /* START OF HEADER */
@@ -105,46 +117,60 @@ body{
 /* PERSONAL INFO */
 .personalInfo{
   text-align: center;
-  margin: 10px;
+  /* margin: 0.625rem; */
+  margin-top: 4rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
   background-color:  var(--blockColor);
-  /* flex-direction: column; */
-  flex-basis: 40%;
-  flex: 6  5%;
+  /* flex-basis: 40%; */
+  /* flex: 6  5%; */
   color: var(--fontColor);
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   font-family: var(--mainFont);
   text-decoration: underline;
-  text-shadow: var(--textShadow)
+  text-shadow: var(--textShadow);
+  height: 50%;
+  width: auto;
+  border: var(--borderBox);
+}
+
+.personalInfo a img { 
+  display: block; float: left; 
 }
 
 #octocat{
-  width: 75px;
-  height: 75px;
-  padding: 20px;
+  height: 5rem;
+	width: 5rem;
+  float: center;
+  padding: .3rem;
 }
 
 #linkedin{
-  width: 75px;
-  height: 75px;
-  padding: 20px;
+  height: 5rem;
+	width: 5rem;
+  float: center;
+  padding: .3rem;
 }
 
 #twitter{
-  width: 75px;
-  height: 75px;
-  padding: 20px;
+  height: 5rem;
+	width: 5rem;
+  float: center;
+  padding: .3rem;
 }
 
 #blog{
-  width: 75px;
-  height: 75px;
-  padding: 20px;
+  height: 5rem;
+	width: 5rem;
+  float: center;
+  padding: .3rem;
 }
 
 #email{
-  width: 75px;
-  height: 75px;
-  padding: 20px;
+  height: 5rem;
+	width: 5rem;
+  float: center;
+  padding: .3rem;
 }
 /* END OF PERSONAL INFO */
 
@@ -161,6 +187,7 @@ body{
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   font-family: var(--mainFont);
   text-decoration: underline;
+  border: var(--borderBox);
 }
 
 .cpTitle{
@@ -347,6 +374,15 @@ span{
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
 }
 
+#zombie-mode{
+  background-color: var(--chocolateMintColor);
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+}
+
 /* END OF COLOR PICKER */
 
 /* INTRODUCTION  */
@@ -359,6 +395,7 @@ span{
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   text-shadow: var(--textShadow);
   font-family: var(--mainFont);
+  border: var(--borderBox);
 }
 
 #introTitle{
@@ -377,6 +414,7 @@ span{
   padding: 1rem;
   margin: 1rem;
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+  border: var(--borderBox);
 }
 /* END OF OREGON TRAIL */
 
@@ -404,7 +442,8 @@ span{
   color: var(--fontColor);
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   font-family: var(--mainFont);
-  text-shadow: var(--textShadow)
+  text-shadow: var(--textShadow);
+  border: var(--borderBox);
 }
 
 #tsTitle{
@@ -518,7 +557,8 @@ span{
   color: var(--fontColor);
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   font-family: var(--mainFont);
-  text-shadow: var(--textShadow)
+  text-shadow: var(--textShadow);
+  border: var(--borderBox);
 }
 
 #tpTitle{
@@ -538,7 +578,8 @@ span{
   padding: 1rem;
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   font-family: var(--mainFont);
-  text-shadow: var(--textShadow)
+  text-shadow: var(--textShadow);
+  border: var(--borderBox);
 }
 
 #eTitle{
@@ -557,7 +598,8 @@ span{
   padding: 1rem;
   box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
   font-family: var(--mainFont);
-  text-shadow: var(--textShadow)
+  text-shadow: var(--textShadow);
+  border: var(--borderBox);
 }
 
 #edTitle{
@@ -567,11 +609,11 @@ span{
 
 /* FOOTER */
 .footer {
-  position: sticky;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
-  height: auto;
+  height: 5%;
   background-color: var(--blockColor);
   color: var(--fontColor);
   text-align: center;

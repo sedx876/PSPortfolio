@@ -9,4 +9,5 @@
   --mainFont: 'Finger Paint', cursive;
   --textShadow: 1px 1px 1px #EC2049;
   --customCursor: url('/images/sunCursor.png'), auto;
+  --borderBox: 3px groove #EC2049;
 }

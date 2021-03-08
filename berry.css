@@ -9,4 +9,5 @@
   --mainFont: 'Hi Melody', cursive;
   --textShadow: 1px 1px 1px #E8175D;
   --customCursor: url('/images/berryCursor.png'), auto;
+  --borderBox: 3px groove #FF5DE8;
 }

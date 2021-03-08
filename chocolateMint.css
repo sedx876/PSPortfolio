@@ -9,4 +9,5 @@
   --mainFont: 'Lacquer', cursive;
   --textShadow: 1px 1px 1px #4D2B25;
   --customCursor: url('/images/icecreamCursor.png'), auto;
+  --borderBox: 3px groove #4D2B25;
 }

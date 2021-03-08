@@ -8,4 +8,5 @@
   --hoverColor: #6C5B7B;
   --mainFont: 'Averia Libre', cursive;
   --customCursor: url('/images/kittenCursor.png'), auto;
+  --borderBox: 3px groove #6C5B7B;
 }

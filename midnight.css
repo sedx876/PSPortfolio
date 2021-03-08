@@ -9,4 +9,5 @@
   --mainFont: 'Oswald', sans-serif;
   --textShadow: 1px 1px 1px #240C44;
   --customCursor: url('/images/starCursor.png'), auto;
+  --borderBox: 3px groove #D4AF37;
 }

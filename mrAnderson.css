@@ -9,4 +9,5 @@
   --mainFont: 'Cutive Mono', monospace;
   --textShadow: 1px 1px 1px #003B00;
   --customCursor: url('/images/matrixCursor.png'), auto;
+  --borderBox: 3px groove #003B00;
 }

@@ -9,4 +9,5 @@
   --mainFont: 'Calligraffitti', cursive;
   --textShadow: 1px 1px 1px #0C233F;
   --customCursor: url('/images/wavesCursor.png'), auto;
+  --borderBox: 3px groove #003B46;
 }
