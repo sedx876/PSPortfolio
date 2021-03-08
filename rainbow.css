@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+:root{
+  --mainColor: #F60000;
+  --blockColor: #47be47;
+  --fontColor: #4815AA;
+  --shadowColor: #3783FF;
+  --hoverColor: #FF8C00;
+  --mainFont: 'Single Day', cursive;
+  --textShadow: 1px 1px 1px #FFEE00;
+  --customCursor: url('/images/rainbowCursor.png'), auto;
+  --borderBox: 3px groove #FF8C00;
+}

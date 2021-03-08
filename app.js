@@ -96,5 +96,9 @@ function setTheme(mode){
 		document.getElementById('theme-style').href = 'zombie.css'
 	}
 
+	if(mode == 'rainbow'){
+		document.getElementById('theme-style').href = 'rainbow.css'
+	}
+
 	localStorage.setItem('theme', mode)
 }

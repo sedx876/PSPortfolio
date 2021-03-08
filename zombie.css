@@ -1,7 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
 :root{
@@ -10,10 +6,6 @@
   --fontColor: #c5333d;
   --shadowColor: #250715;
   --hoverColor: #5e967b;
-  /* --mainFont: 'Frijole', cursive; */
-  /* --mainFont: 'Walter Turncoat', cursive; */
-  /* --mainFont: 'Chelsea Market', cursive; */
-  /* --mainFont: 'Freckle Face', cursive; */
   --mainFont: 'Creepster', cursive;
   --textShadow: 1px 1px 1px #5e967b;
   --customCursor: url('/images/lucilleCursor.png'), auto;

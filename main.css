@@ -23,11 +23,13 @@
   --midnightColor: #240c44;
   --chocolateMintColor: #65dcb4;
   --zombieColor: #5e967b;
+  --rainbowColor: #F60000;
   --shadowColor: #464646; 
   --mainFont: 'Inconsolata', monospace;
   --textShadow: 1px 1px 1px #DDDDDD;
   --borderBox: 3px groove black;
   --customCursor: url('/images/compcursor2.png'), auto;
+  --gradient: linear-gradient(293deg, rgba(246,0,0,1) 0%, rgba(255,140,0,1) 25%, rgba(255,238,0,1) 50%, rgba(77,233,76,1) 67%, rgba(55,131,255,1) 81%, rgba(72,21,170,1) 100%);
 }
 
 body{
@@ -377,6 +379,15 @@ span{
 
 #zombie-mode{
   background-color: var(--zombieColor);
+  height: 2rem;
+	width: 2rem;
+  float: left;
+  padding: .3rem;
+  box-shadow: 0.625rem 0.625rem 0.5rem var(--shadowColor);
+}
+
+#rainbow-mode{
+  background-color: var(--rainbowColor);
   height: 2rem;
 	width: 2rem;
   float: left;
